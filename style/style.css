@@ -1,0 +1,265 @@
+*{margin: 0;
+padding: 0;}
+
+.barraMobile{display: none;}
+
+body {
+    background: rgb(4,47,77);
+background: radial-gradient(circle, rgba(4,47,77,1) 50%, rgba(1,19,31,1) 100%);
+        color: white;
+    }
+header {
+        display: flex;
+        justify-content: space-between; 
+        flex-wrap: wrap;
+                } 
+nav {list-style: none;
+    display: flex;
+    align-items: center;
+        }    
+
+header nav ul li a   {
+                text-decoration: none;
+                color: white;
+                padding: 10px;
+               
+    }
+
+    ul { display: flex;
+    justify-content: center; }
+
+header nav ul li { display: inline-block;
+    font-family: 'Righteous', cursive;
+        font-size: 20px;
+       
+                           }
+
+
+/* index: Solo ultimo lanzamiento y proxima fecha*/
+.sectionIndex{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+}
+/* El SECTION de arriba aplica tambien al section 
+ de "proximas fechas" */
+
+.arima{  
+    font-family: 'Arima', cursive;
+}
+
+.news { font-family: 'Bungee Shade', cursive;
+            font-size: 65px;
+            margin-left: 20px;}
+
+.news2 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 30px;
+    margin-left: 20px;
+}            
+
+
+/* Logos vectoriales */
+#insta{font-size: 50px;
+text-decoration: none;
+color: white;}                
+#youtube{font-size: 50px;
+    text-decoration: none;
+    color: white;}
+#up{font-size: 25px;
+    text-decoration: none;
+    color: white;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;}
+
+
+       
+/* Footer */
+footer {display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: black
+}
+footer div{ display: flex;
+            
+            }
+  
+#videoLoop{ display: flex;
+            justify-content: center;
+                                        
+}
+#videoLoop video{
+                      
+          width: 100%;                       
+           
+}
+
+
+.separador{ height: 65px;}
+
+.barra {
+        display: flex;
+        justify-content: center;
+       
+}
+
+
+/* Historia.html */
+.pHistoria{ font-family: 'Expletus Sans', cursive;
+            margin-left: 35px;
+            margin-right: 35px;
+            padding: 10px;
+}
+
+.imgCent{display: flex;
+        justify-content: center;}
+
+
+/* DISCOGRAFIA.html */
+
+.titDiscografia { font-family: 'Bungee Shade', cursive;
+    font-size: 65px;
+    margin-left: 20px;}
+
+.subtitulo{ font-family: 'Expletus Sans', cursive;
+            margin-left: 35px;
+             padding: 10px;
+                               
+                }
+
+#linkAlb {font-family: 'Expletus Sans', cursive;
+    margin-left: 35px;
+     padding: 10px;
+        text-decoration: none; color: white;}
+
+#linkSing {font-family: 'Expletus Sans', cursive;
+    margin-left: 35px;
+     padding: 10px;
+        text-decoration: none; color: white;}
+
+.tituloAlbum{font-family: 'Expletus Sans', cursive;
+   
+     padding: 10px; }
+
+.discosAlineacion{
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+}
+.discosAlineacion img {padding-right: 20px;}
+.discoTit {display: flex;
+justify-content: center;
+padding-bottom: 10px;}
+
+.listaTemas{font-family: 'Expletus Sans', cursive;
+            font-size: 22px;
+
+}
+
+.comprarEnt{font-family: 'Expletus Sans', cursive;
+            padding: 10px;
+            text-decoration: none; 
+            color: white;
+
+
+}
+
+/* GALERIA ************** */
+
+.galeriaContainer{
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                    grid-template-rows: repeat(4,1fr);
+                    gap: 10px;
+                    justify-items: center;
+                        
+
+}
+
+.galeriaContainer div { width: 100%;}
+
+/* PROXIMAS FECHAS */
+
+.proxFechasDesk { font-family: 'Bungee Shade', cursive;
+    font-size: 30px;
+    margin-left: 20px;}
+
+.proxFechasMob{display: none;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 30px;
+    margin-left: 20px;
+
+
+}
+
+
+/* SHOP **************** */
+.contenedorShop{
+                display: flex;
+                                flex-wrap: wrap;
+                justify-content:space-evenly;
+}
+
+.remeraContenedor{
+                    display: flex;
+                    flex-direction: column;
+                    height: 470px;
+                    justify-content: space-around;
+                    align-items: center;
+                    padding: 10px;
+                    
+
+}
+.remeraContenedor img {border-left: 4px solid black;
+    border-bottom: 4px solid black;}
+  
+/* ++++++++++++++RESPONSIVE++++++++++++ */
+
+@media only screen and (max-width: 578px) {
+
+    /* ESTILOS GENERALES / HEADER / NAV / */
+
+    header {flex-direction: column;
+            align-items: center;
+            justify-content: center;}
+    ul {flex-wrap: wrap;}
+
+    header nav ul li{font-size: 30px;
+                    }   
+    header nav ul li a{padding-top: 2px;
+                        padding-bottom: 2px;} 
+
+
+/* INDEX */                        
+
+        .iframe{width: 400px;}
+
+        .barraMobile{display: flex;
+                    justify-content: center;}
+
+
+/* FOOTER */
+
+    .copyR{display: none;}
+    #contenedorUp{display: none;}
+
+
+    /* DISCOGRAFIA */
+    .titDiscografia{ font-size: 40px;}
+
+
+    /*GALERIA*/
+        .galeriaContainer {
+                        display:flex;
+                        flex-direction: column;
+                        }
+    .galeriaContainer div {display: flex;
+                            justify-content: center;}
+    
+
+   /* PROXIMAS FECHAS */                             
+       .proxFechasDesk{display: none;}
+        .proxFechasMob{display: block;}
+}
