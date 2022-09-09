@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria - LosOtro's</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="../imagenes/logopestania.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,61 +16,61 @@
 </head>
 <body>
     <header id="arriba">
-        <img src="../imagenes/logolarge.png" alt="">
+        <img class="animate__animated animate__fadeInDownt" src="../imagenes/logolarge.png" alt="">
         
         <nav>
-            <ul>
+            <ul class="animate__animated animate__fadeInDown">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="./historia.html">Historia</a></li>
                 <li><a href="./discografia.html">Discografía</a></li>
                 <li><a href="./galeria.html">Galería</a></li>
                 <li><a href="./fechas.html">Próximas Fechas</a></li>
-                <li><a href="./shop.html">Shop </a></li>           
+                <li><a href="./shop.html">Shop </a></li>          
             </ul>
         </nav>
     </header>
     <div class="navSeparador"><br><br></div>
 
    
-        <h1 class="titGaleria">Galería</h1>
+        <h1 class="titGaleria animate__animated animate__fadeInLeft">Galería</h1>
     
         
     <section>
         <div class="galeriaContainer">
-            <div>
+            <div data-aos="flip-left">
                 <img src="../imagenes/galeria/01.jpeg" alt="">
             </div>
-            <div>
+            <div data-aos="flip-left">
                 <img src="../imagenes/galeria/02.jpeg" alt="">
             </div>
-            <div>
+            <div data-aos="flip-left">
                 <img src="../imagenes/galeria/03.jpeg" alt="">
             </div>
-            <div>
+            <div data-aos="flip-left">
                 <img src="../imagenes/galeria/04.jpeg" alt="">
             </div>
-            <div>
+            <div data-aos="flip-left">
                 <img src="../imagenes/galeria/05.jpeg" alt="">
             </div>
-            <div>
+            <div data-aos="flip-left">
                 <img src="../imagenes/galeria/06.jpeg" alt="">
             </div>
-            <div>
+            <div data-aos="flip-left">
                 <img src="../imagenes/galeria/07.jpeg" alt="">
             </div>
-            <div>
+            <div data-aos="flip-left">
                 <img src="../imagenes/galeria/08.jpeg" alt="">
             </div>
-            <div>
+            <div data-aos="flip-left">
                 <img src="../imagenes/galeria/09.jpeg" alt="">
             </div>
-            <div>
+            <div data-aos="flip-left">
                 <img src="../imagenes/galeria/10.jpeg" alt="">
             </div>
-            <div>
+            <div data-aos="flip-left">
                 <img src="../imagenes/galeria/11.jpeg" alt="">
             </div>
-            <div>
+            <div data-aos="flip-left">
                 <img src="../imagenes/galeria/12.jpeg" alt="">
             </div>
 
@@ -97,5 +99,11 @@
      <div><p class="copyR">Todos los derechos reservados LosOtro's 2022</p></div>
  </footer>
 
+
+
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+    AOS.init();
+  </script>
 </body>
 </html>

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discografía LosOtro's</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="../imagenes/logopestania.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,10 +16,10 @@
 </head>
 <body>
     <header id="arriba">
-        <img src="../imagenes/logolarge.png" alt="">
+        <img class="animate__animated animate__fadeInDown" src="../imagenes/logolarge.png" alt="">
         
         <nav>
-            <ul>
+            <ul class="animate__animated animate__fadeInDown">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="./historia.html">Historia</a></li>
                 <li><a href="./discografia.html">Discografía</a></li>
@@ -30,7 +32,7 @@
     <div class="navSeparador"><br><br></div>
 
 <main>
-    <h1 class="titDiscografia">Discografía</h1>
+    <h1 class="titDiscografia animate__animated animate__fadeInLeft">Discografía</h1>
 
     <h2><a id="linkAlb" href="./discografia.html#albumes">  Albumes</a></h2>
     <h2><a id="linkSing" href="./discografia.html#singless">  Singles</a></h2>
@@ -44,7 +46,7 @@
         <div class="discoTit"><h3 class="tituloAlbum">NADA QUE PERDER </h3>
         </div>
 
-            <div class="discosAlineacion">
+            <div data-aos="fade-right" class="discosAlineacion">
                 <a target="_blank" href="https://open.spotify.com/"><img class="d1D" src="../imagenes/disco1.png" alt=""></a>
                 <a target="_blank" href="https://open.spotify.com/"><img class="d1M" src="../imagenes/discosmobile/disco1Mob.PNG" alt=""></a>
                 <p class="listaTemas">Album - 2022 - 9 canciones <br><br>
@@ -62,7 +64,7 @@
             <br><br><br><br>
         <div class="discoTit"><h3 class="tituloAlbum">HOY SALIMOS A GANAR </h3>
         </div>    
-        <div class="discosAlineacion">
+        <div data-aos="fade-left" class="discosAlineacion">
             <a target="_blank" href="https://open.spotify.com/"><img class="d2D" src="../imagenes/disco2.png" alt=""></a>
             <a target="_blank" href="https://open.spotify.com/"><img class="d2M" src="../imagenes/discosmobile/discoMob.png" alt=""></a>
             <p class="listaTemas">
@@ -88,7 +90,7 @@
         <div class="discosAlineacion">
             <h3 class="tituloAlbum">Perspectiva (2022)</h3>
         </div>
-        <div class="discosAlineacion">
+        <div data-aos="fade-right" class="discosAlineacion">
             <a target="_blank" href="https://open.spotify.com/"><img class="s1D" src="../imagenes/single1.png" alt=""></a>
             <a target="_blank" href="https://open.spotify.com/"><img class="s1M" src="../imagenes/discosmobile/single1Mob.PNG" alt=""></a>
         </div>
@@ -97,7 +99,7 @@
         <div class="discosAlineacion">
             <h3 class="tituloAlbum">Mambo (2021)</h3>
         </div>
-        <div class="discosAlineacion">
+        <div data-aos="fade-left" class="discosAlineacion">
             <a target="_blank" href="https://open.spotify.com/"><img class="s2D" src="../imagenes/single2.png" alt=""></a>
             <a target="_blank" href="https://open.spotify.com/"><img class="s2M" src="../imagenes/discosmobile/single2Mob.PNG" alt=""></a>
         </div>
@@ -106,7 +108,7 @@
         <div class="discosAlineacion">
             <h3 class="tituloAlbum">Parallel Universe (2020)</h3>
         </div>
-        <div class="discosAlineacion">
+        <div data-aos="fade-right" class="discosAlineacion">
             <a target="_blank" href="https://open.spotify.com/"><img class="s3D" src="../imagenes/single3.png" alt=""></a>
             <a target="_blank" href="https://open.spotify.com/"><img class="s3M" src="../imagenes/discosmobile/single3Mob.PNG" alt=""></a>
         </div>
@@ -132,5 +134,11 @@
          
          <div><p class="copyR">Todos los derechos reservados LosOtro's 2022</p></div>
      </footer>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>     
 </body>
 </html>

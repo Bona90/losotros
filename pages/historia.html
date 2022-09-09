@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Historia - LosOtro's </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="../imagenes/logopestania.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,10 +16,10 @@
 </head>
 <body>
     <header id="arriba">
-        <img src="../imagenes/logolarge.png" alt="">
+        <img class="animate__animated animate__fadeInDown" src="../imagenes/logolarge.png" alt="">
         
         <nav>
-            <ul>
+            <ul class="animate__animated animate__fadeInDown">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="./historia.html">Historia</a></li>
                 <li><a href="./discografia.html">Discografía</a></li>
@@ -29,7 +31,7 @@
     </header>
     <div class="navSeparador"><br><br></div>
 
-    <h1 class="titHistoria">Historia</h1>
+    <h1 class="titHistoria animate__animated animate__fadeInLeft">Historia</h1>
         <p class="pHistoria">LosOtro´s es una banda de Rafael Calzada GBA, caracterizada por estar conformada por miembros con distintas vertientes musicales, lo cual hizo que el resultado sea una conjunción de estilos y no un sonido conocido ya estructurado, con influencias tan variadas como RHCP, Primus, Tool, GNR, Massacre Palestina, Soda Stereo, RATM, etc.(la lista sería interminable). <br> 
             En esta búsqueda de la visión de la banda, Santiago Ortiz (Vocalista) y Jony Avila (Bajista) (Ambos ex NOI-Nuestro Oscuro Interior) le dieron un kick off al proyecto comenzando a buscar músicos que se acoplen a la idea. <br>
             Aparece en escena Leandro Patrono (Guitarrista) amigo de Santy, con quien se comienzan a generar los primeros ensayos en esta búsqueda de sonidos. <br>
@@ -39,7 +41,7 @@
             En Octubre 2018, la banda tuvo su debut en tablas, en una fecha en Adrogué, en el ya extinto bar Mana, luego de esto todo el 2019 y principios de 2020, se apuntó a tocar y mostrar el proyecto (Tocando en Zona Sur y Oeste). <br>
             Pandemia de por medio, tuvimos 1 año de parate musical, forzado, el cual nos dio lugar a cuestionar que nos faltaba, que hacía que el sonido aun no sea el que se anhelaba, en dicho año se suma a la banda Gonzalo "Bona" Bonacorsi (Guitarra) con quien la segunda formación de la banda, ahora con dos guitarras tiene un nuevo inicio, y se reinicio el proceso compositivo, el cual hoy nos encontramos surfeando, a la espera de volver a los vivos!
         </p>
-        <div class="imgCent">
+        <div class="imgCent" data-aos="zoom-in">
             <img class="bandaD" src="../imagenes/banda.png" alt="">
             <img class="bandaM" src="../imagenes/bandaMobile.png" alt="">
         </div>
@@ -54,5 +56,11 @@
                  
                  <div><p class="copyR">Todos los derechos reservados LosOtro's 2022</p></div>
              </footer>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>

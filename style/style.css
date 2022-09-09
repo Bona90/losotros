@@ -3,6 +3,10 @@ padding: 0;}
 
 .barraMobile{display: none;}
 
+.animate__animated.animate__fadeInLeft {
+    --animate-duration: 600ms;
+  }
+
 body {
     background: rgb(4,47,77);
 background: radial-gradient(circle, rgba(4,47,77,1) 50%, rgba(1,19,31,1) 100%);
@@ -240,6 +244,19 @@ padding-bottom: 10px;}
     article div img {border-color:brown solid 10px;}
 
     .navSeparador{display: none;}
+
+/* ANIMACIONES --------------------------------- */
+
+
+.remeraContenedor img:hover{
+                            transform: scale(1.1);
+                            transition: all 300ms ease;
+}
+
+.sectionIndex img:hover{transform: scale(1.1);
+    transition: all 300ms ease;}
+
+
 
   
     
