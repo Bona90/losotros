@@ -113,6 +113,10 @@ footer div{ display: flex;
             padding: 10px;
 }
 
+.titHistoria{ font-family: 'Bungee Shade', cursive;
+    font-size: 65px;
+    margin-left: 20px;}
+
 .imgCent{display: flex;
         justify-content: center;}
 
@@ -168,6 +172,10 @@ padding-bottom: 10px;}
 
 /* GALERIA ************** */
 
+.titGaleria { font-family: 'Bungee Shade', cursive;
+    font-size: 65px;
+    margin-left: 20px;}
+
 .galeriaContainer{
                     display: grid;
                     grid-template-columns: repeat(3,1fr);
@@ -188,7 +196,7 @@ padding-bottom: 10px;}
 
 .proxFechasMob{display: none;
     font-family: 'Bungee Shade', cursive;
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 20px;
 
 
@@ -196,6 +204,12 @@ padding-bottom: 10px;}
 
 
 /* SHOP **************** */
+
+.titShop{font-family: 'Bungee Shade', cursive;
+    font-size: 65px;
+    margin-left: 20px;}
+
+    
 .contenedorShop{
                 display: flex;
                                 flex-wrap: wrap;
@@ -215,7 +229,7 @@ padding-bottom: 10px;}
 .remeraContenedor img {border-left: 4px solid black;
     border-bottom: 4px solid black;}
   
-/* ++++++++++++++RESPONSIVE++++++++++++ */
+/* ++++++++++++++RESPONSIVE++++++++++++////////!!!!!!!///////// */
 
 @media only screen and (max-width: 578px) {
 
@@ -231,6 +245,8 @@ padding-bottom: 10px;}
     header nav ul li a{padding-top: 2px;
                         padding-bottom: 2px;} 
 
+    .news{ font-size: 50px; }
+
 
 /* INDEX */                        
 
@@ -245,9 +261,13 @@ padding-bottom: 10px;}
     .copyR{display: none;}
     #contenedorUp{display: none;}
 
+    /* HISTORIA */
+    .titHistoria{font-size: 40px;}
+
+
 
     /* DISCOGRAFIA */
-    .titDiscografia{ font-size: 40px;}
+    .titDiscografia{ font-size: 35px;}
 
 
     /*GALERIA*/
@@ -257,9 +277,17 @@ padding-bottom: 10px;}
                         }
     .galeriaContainer div {display: flex;
                             justify-content: center;}
+    .titGaleria{font-size: 40px;}                            
     
 
    /* PROXIMAS FECHAS */                             
        .proxFechasDesk{display: none;}
-        .proxFechasMob{display: block;}
+        .proxFechasMob{display: block;
+                       }
+
+    /* SHOP */                       
+    .titShop{font-size: 40px;}
+
+
+
 }
