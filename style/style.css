@@ -120,6 +120,8 @@ footer div{ display: flex;
 .imgCent{display: flex;
         justify-content: center;}
 
+    .bandaM{display: none;}
+
 
 /* DISCOGRAFIA.html */
 
@@ -282,6 +284,8 @@ padding-bottom: 10px;}
 
     /* HISTORIA */
     .titHistoria{font-size: 40px;}
+    .bandaD{display: none;}
+    .bandaM{display: block;}
 
 
 
