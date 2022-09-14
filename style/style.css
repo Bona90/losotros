@@ -306,7 +306,7 @@ header{ display: block;}
 /* FOOTER */
 
     .copyR{display: none;}
-    #contenedorUp{display: none;}
+    /* #contenedorUp{display: none;} */
 
     /* HISTORIA */
     .titHistoria{font-size: 40px;}
