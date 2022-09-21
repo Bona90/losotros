@@ -1,0 +1,252 @@
+/* |||||||| Toda esta parte es la que me falta pasar al style.scss | La dejo aca para que no se rompa el proyecto ||||||||||||  */
+
+
+
+/* Historia.html */
+.pHistoria{ font-family: 'Expletus Sans', cursive;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 10px;
+}
+
+.titHistoria{ font-family: 'Bungee Shade', cursive;
+font-size: 65px;
+margin-left: 20px;}
+
+.imgCent{display: flex;
+justify-content: center;}
+
+.bandaM{display: none;}
+
+
+/* DISCOGRAFIA.html */
+
+.titDiscografia { font-family: 'Bungee Shade', cursive;
+font-size: 65px;
+margin-left: 20px;}
+
+.subtitulo{ font-family: 'Expletus Sans', cursive;
+    margin-left: 35px;
+     padding: 10px;
+                       
+        }
+
+#linkAlb {font-family: 'Expletus Sans', cursive;
+margin-left: 35px;
+padding: 10px;
+text-decoration: none; color: white;}
+
+#linkSing {font-family: 'Expletus Sans', cursive;
+margin-left: 35px;
+padding: 10px;
+text-decoration: none; color: white;}
+
+.tituloAlbum{font-family: 'Expletus Sans', cursive;
+
+padding: 10px; }
+
+.discosAlineacion{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+}
+.discosAlineacion img {padding-right: 20px;}
+.discoTit {display: flex;
+justify-content: center;
+padding-bottom: 10px;}
+
+.listaTemas{font-family: 'Expletus Sans', cursive;
+    font-size: 22px;
+
+}
+
+.comprarEnt{font-family: 'Expletus Sans', cursive;
+    padding: 10px;
+    text-decoration: none; 
+    color: white;
+
+}
+.d1M{display: none;}
+.d2M{display: none;}
+.s1M{display: none;}
+.s2M{display: none;}
+.s3M{display: none;}
+
+
+/* GALERIA ************** */
+
+.titGaleria { font-family: 'Bungee Shade', cursive;
+font-size: 65px;
+margin-left: 20px;}
+
+.galeriaContainer{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(4,1fr);
+            gap: 10px;
+            justify-items: center;
+                
+
+}
+
+.galeriaContainer div { width: 100%;}
+
+/* PROXIMAS FECHAS */
+
+.proxFechasDesk { font-family: 'Bungee Shade', cursive;
+font-size: 40px;
+margin-left: 20px;}
+
+.proxFechasMob{display: none;
+font-family: 'Bungee Shade', cursive;
+font-size: 20px;
+margin-left: 20px;
+}
+
+.f1M{display: none;}
+.f2M{display: none;}
+
+/* SHOP **************** */
+
+.titShop{font-family: 'Bungee Shade', cursive;
+font-size: 65px;
+margin-left: 20px;}
+
+.shopContenedor{
+display: flex;
+color: black;
+flex-wrap: wrap;
+justify-content: space-evenly; 
+  
+}
+.cardPropia{margin-bottom: 50px;}
+
+
+.navSeparador{display: none;} 
+
+/* ANIMACIONES --------------------------------- */
+
+
+.remeraContenedor img:hover{
+                    transform: scale(1.1);
+                    transition: all 300ms ease;
+                    
+}
+
+.sectionIndex img:hover{transform: scale(1.1);
+transition: all 300ms ease;}
+
+
+
+
+
+
+
+/* ++++++++++++++RESPONSIVE++++++++++++////////!!!!!!!///////// */
+
+@media only screen and (max-width: 991px){
+
+header{ display: block;}
+.imgLogo{display: flex;
+   justify-content: center;
+/*  align-items: center; */}
+
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 578px) {
+
+/* ESTILOS GENERALES / HEADER / NAV / */
+
+
+
+header {flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+   
+ul {flex-wrap: wrap;}
+
+header nav ul li{font-size: 30px;
+            }   
+header nav ul li a{padding-top: 2px;
+                padding-bottom: 2px;} 
+
+.news{ font-size: 50px; }
+
+.navSeparador{display: block;}
+
+
+/* INDEX */                        
+
+.iframe{width: 300px;
+        height: 169px;}
+
+.barraMobile{display: flex;
+            justify-content: center;}
+
+
+/* FOOTER */
+
+.copyR{display: none;}
+/* #contenedorUp{display: none;} */
+
+/* HISTORIA */
+.titHistoria{font-size: 40px;}
+.bandaD{display: none;}
+.bandaM{display: block;}
+
+
+
+/* DISCOGRAFIA */
+.titDiscografia{ font-size: 35px;}
+
+.d1M{display: block;}
+.d1D{display: none;}
+.d2M{display: block;}
+.d2D{display: none;}
+.s1M{display: block;}
+.s1D{display: none;}
+.s2M{display: block;}
+.s2D{display: none;}
+.s3M{display: block;}
+.s3D{display: none;}
+
+
+
+
+/*GALERIA*/
+.galeriaContainer {
+                display:flex;
+                flex-direction: column;
+                }
+.galeriaContainer div {display: flex;
+                    justify-content: center;}
+.titGaleria{font-size: 40px;}                            
+
+
+/* PROXIMAS FECHAS */                             
+.proxFechasDesk{display: none;}
+.proxFechasMob{display: block;
+               }
+
+.f1M{display: block;}
+.f1D{display: none;}
+.f2M{display: block;}
+.f2D{display: none;}                 
+
+
+
+/* SHOP */                       
+.titShop{font-size: 40px;}
+
+
+
+}

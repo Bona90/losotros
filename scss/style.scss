@@ -1,0 +1,75 @@
+@import "base/variables";
+@import "base/listas";
+@import "componentes/header";
+@import "componentes/loquemefaltaordenar";
+
+
+*{  margin: 0;
+    padding: 0;}
+    
+.barraMobile{display: none;}
+    
+.animate__animated.animate__fadeInLeft {
+        --animate-duration: 600ms;
+      }
+    
+body {
+        background: $color-principal;
+        background: radial-gradient(circle, rgba(4,47,77,1) 50%, rgba(1,19,31,1) 100%);
+        color: $color-secundario;      
+    }
+
+/* ++++++++ index ++++++++ */
+#videoLoop{ display: flex;
+            justify-content: center;
+            video{ width: 100%;}                               
+}
+
+/* ||| sectionIndex tambien aplicado al de "fechas.html" ||| */
+.sectionIndex{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;}
+.arima{  
+    font-family: 'Arima', cursive;}
+
+.news { 
+    font-family: 'Bungee Shade', cursive;
+    font-size: nth($font-size , 8 );
+    margin-left: 20px;}
+
+.news2 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: nth($font-size , 4 );
+    margin-left: 20px;}
+    
+/* Footer */ 
+footer{ display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: $color-dark;
+        div{display: flex;
+                p{margin-bottom: 0;
+                 }
+        }
+}   
+
+/* Logos vectoriales */
+#insta{font-size: nth($font-size , 7 );
+    text-decoration: none;
+    color: $color-secundario;}                
+#youtube{font-size: nth($font-size , 7 );
+        text-decoration: none;
+        color: $color-secundario;}
+#up{font-size:nth($font-size , 3 );
+        text-decoration: none;
+        color: $color-secundario;
+        position: fixed;
+        right: 15px;
+        bottom: 15px;}
+
+.separador{ height: 65px;}
+
+.barra {display: flex;
+        justify-content: center;}        
