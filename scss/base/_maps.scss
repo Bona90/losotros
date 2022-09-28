@@ -1,0 +1,25 @@
+$titulos: (
+    fontExpletus: 'Expletus Sans',
+    fontBungee: 'Bungee Shade',
+    decoration: none,
+    sizeGrande: 65px,
+    sizeMed: 35px,
+    margenGrande: 35px,
+    margenMed: 20px,
+    paddingMin: 10px
+
+);
+
+.titHistoria{
+    font-family: map-get($titulos , fontBungee );
+    font-size: map-get($titulos , sizeGrande );
+    margin-left: map-get($titulos , margenMed );
+}
+
+.pHistoria{
+    font-family: map-get($titulos, fontExpletus );
+    margin-left: map-get($titulos , margenGrande);
+    margin-right: map-get($titulos , margenGrande);
+    padding: map-get($titulos, paddingMin );
+
+}

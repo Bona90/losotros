@@ -1,0 +1,11 @@
+@mixin pieDePagina ($display, $space, $center, $color){
+    display: $display;
+    justify-content: $space;
+    align-items: $center;
+    background-color: $color;
+    
+}
+
+footer{
+    @include pieDePagina(flex, space-evenly, center , black)
+}

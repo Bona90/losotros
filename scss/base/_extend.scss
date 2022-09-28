@@ -1,0 +1,9 @@
+%flexCentrado{display: flex;
+    justify-content: center;}
+
+
+.imgCent{
+    @extend  %flexCentrado
+}
+
+

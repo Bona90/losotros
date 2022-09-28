@@ -1,4 +1,7 @@
 @import "base/variables";
+@import "base/maps";
+@import "base/mixin";    
+@import "base/extend";
 @import "base/listas";
 @import "componentes/header";
 @import "componentes/loquemefaltaordenar";
@@ -19,11 +22,12 @@ body {
         color: $color-secundario;      
     }
 
-/* ++++++++ index ++++++++ */
-#videoLoop{ display: flex;
-            justify-content: center;
-            video{ width: 100%;}                               
+#videoLoop{
+    display: flex;
+    justify-content: center;
+    video{width: 100%;}
 }
+
 
 /* ||| sectionIndex tambien aplicado al de "fechas.html" ||| */
 .sectionIndex{
@@ -45,10 +49,7 @@ body {
     margin-left: 20px;}
     
 /* Footer */ 
-footer{ display: flex;
-        justify-content: space-around;
-        align-items: center;
-        background: $color-dark;
+footer{ 
         div{display: flex;
                 p{margin-bottom: 0;
                  }

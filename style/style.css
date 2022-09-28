@@ -1,3 +1,28 @@
+.titHistoria {
+  font-family: "Bungee Shade";
+  font-size: 65px;
+  margin-left: 20px;
+}
+
+.pHistoria {
+  font-family: "Expletus Sans";
+  margin-left: 35px;
+  margin-right: 35px;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+}
+
+.imgCent {
+  display: flex;
+  justify-content: center;
+}
+
 /*anidamiento header*/
 header {
   display: flex;
@@ -31,24 +56,6 @@ header nav ul li a {
 
 /* |||||||| Toda esta parte es la que me falta pasar al style.scss | La dejo aca para que no se rompa el proyecto ||||||||||||  */
 /* Historia.html */
-.pHistoria {
-  font-family: "Expletus Sans", cursive;
-  margin-left: 35px;
-  margin-right: 35px;
-  padding: 10px;
-}
-
-.titHistoria {
-  font-family: "Bungee Shade", cursive;
-  font-size: 65px;
-  margin-left: 20px;
-}
-
-.imgCent {
-  display: flex;
-  justify-content: center;
-}
-
 .bandaM {
   display: none;
 }
@@ -217,7 +224,6 @@ header nav ul li a {
   .imgLogo {
     display: flex;
     justify-content: center;
-    /*  align-items: center; */
   }
 }
 @media only screen and (max-width: 578px) {
@@ -356,7 +362,6 @@ body {
   color: white;
 }
 
-/* ++++++++ index ++++++++ */
 #videoLoop {
   display: flex;
   justify-content: center;
@@ -390,12 +395,6 @@ body {
 }
 
 /* Footer */
-footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background: black;
-}
 footer div {
   display: flex;
 }
