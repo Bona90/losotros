@@ -54,6 +54,15 @@ header nav ul li a {
   background-color: white;
 }
 
+.carousel{
+  width: 400px;
+}
+.contenedorCarousel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* |||||||| Toda esta parte es la que me falta pasar al style.scss | La dejo aca para que no se rompa el proyecto ||||||||||||  */
 /* Historia.html */
 .bandaM {
@@ -432,5 +441,7 @@ footer div p {
   display: flex;
   justify-content: center;
 }
+
+
 
 /*# sourceMappingURL=style.css.map */
