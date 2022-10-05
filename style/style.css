@@ -63,6 +63,36 @@ header nav ul li a {
   align-items: center;
 }
 
+
+.header {
+  color: white;
+  font-size: 27px;
+  padding: 10px;
+}
+
+.bigicon {
+  font-size: 35px;
+  color: white;
+}
+
+.formulario{
+  display: flex;
+  justify-content: center;
+}
+
+.botonProp{
+  
+  border: 1px solid white;  
+padding: 10px; 
+background-color: #2e518b; 
+margin-bottom: 30px;
+color: #ffffff; 
+text-decoration: none; 
+font-family: "Expletus Sans", cursive;
+border-radius: 10px;
+}
+
+
 /* |||||||| Toda esta parte es la que me falta pasar al style.scss | La dejo aca para que no se rompa el proyecto ||||||||||||  */
 /* Historia.html */
 .bandaM {
